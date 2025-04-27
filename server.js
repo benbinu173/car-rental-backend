@@ -9,7 +9,7 @@ const app = express();
 // Middleware
 // app.use(cors());
 app.use(cors({
-  origin: "https://car-rental-frontend-woad.vercel.app", // your deployed frontend URL
+  origin: "https://car-rental-frontend-lovat.vercel.app", // your deployed frontend URL
   credentials: true, // if you use cookies or auth headers
 }));
 app.use(express.json());  // express.json() handles body parsing for JSON
